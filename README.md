@@ -14,7 +14,6 @@
   </p>
 </p>
 
-
 ## About The Project
 
 Forkify is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease servings as per his need and can view detailed directions.
@@ -28,8 +27,6 @@ This app is built with pure vanilla JavaScript along with HTML and SCSS. It uses
 - [Vanilla JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
 - [Webpack](https://webpack.js.org/)
 - [NPM](https://www.npmjs.com/)
-
-
 
 ## Getting Started
 
@@ -61,7 +58,6 @@ Start with the latest version of NPM to avoid any errors:
    ```JS
    const KEY = 'ENTER YOUR API';
    ```
-
 
 ## Usage
 
@@ -99,9 +95,6 @@ See the [open issues](https://github.com/catherineisonline/forkify/issues) for a
 
 7. Nutrition data on each ingredient from spoonacular API (https://
    spoonacular.com/food-api) and calculate total calories of recipe.
-
-
-
 
 ## License
 
