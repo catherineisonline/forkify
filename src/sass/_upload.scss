@@ -6,7 +6,9 @@
   width: 100rem;
   background-color: white;
   border-radius: 9px;
-
+  @media only screen and (max-width: $bp-medium) {
+    width: max-content;
+  }
   padding: 5rem 6rem;
   box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.25);
   z-index: 1000;
@@ -46,6 +48,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem 6rem;
+  @media only screen and (max-width: $bp-medium) {
+    grid-template-columns: 1fr;
+  }
 
   &__column {
     display: grid;
