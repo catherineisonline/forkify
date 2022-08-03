@@ -4,11 +4,25 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  height: max-content;
+  padding: 1.5rem;
+
+  @media only screen and (max-width: $bp-medium) {
+    column-gap: 4rem;
+  }
+  @media only screen and (max-width: $bp-small) {
+    justify-content: center;
+    gap: 2rem;
+  }
 
   &__logo {
     margin-left: 4rem;
     height: 4.6rem;
     display: block;
+    @media only screen and (max-width: $bp-small) {
+      height: 6rem;
+    }
   }
 }
 
@@ -59,11 +73,18 @@
 .nav {
   align-self: stretch;
   margin-right: 2.5rem;
+  @media only screen and (max-width: $bp-medium) {
+    // padding: 3rem;
+    margin: 0 auto;
+  }
 
   &__list {
     list-style: none;
     display: flex;
     height: 100%;
+    @media only screen and (max-width: $bp-medium) {
+      padding: 3rem;
+    }
   }
 
   &__item {
@@ -85,6 +106,10 @@
 
     display: flex;
     align-items: center;
+    @media only screen and (max-width: $bp-medium) {
+      font-size: 2rem;
+      padding: 2rem;
+    }
 
     svg {
       height: 2.4rem;
