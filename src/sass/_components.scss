@@ -99,10 +99,13 @@
   width: 4.5rem;
   // margin-left: auto;
   transition: all 0.2s;
-
   display: flex;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: $bp-small) {
+    height: 7rem;
+    width: 7rem;
+  }
 
   &:hover {
     transform: scale(1.07);
