@@ -71,7 +71,7 @@ body {
 .content-container {
   display: grid;
   grid-template-columns: 25% 1fr;
-  @media only screen and (max-width: $bp-large) {
+  @media only screen and (max-width: $bp-medium) {
     grid-template-columns: 1fr;
     // grid-template-rows: 25% 1fr;
   }

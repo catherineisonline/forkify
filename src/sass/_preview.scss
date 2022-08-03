@@ -8,6 +8,12 @@
       transition: all 0.3s;
       border-right: 1px solid #fff;
       text-decoration: none;
+      @media only screen and (max-width: $bp-medium) {
+        flex-direction: column;
+        padding: 1rem;
+        height: 100%;
+        width: 15rem;
+      }
     }
 
     &:hover {
@@ -30,7 +36,7 @@
     backface-visibility: hidden;
 
     &::before {
-      content: '';
+      content: "";
       display: block;
       height: 100%;
       width: 100%;
