@@ -24,6 +24,9 @@
     width: 100%;
     scroll-behavior: smooth;
   }
+  @media only screen and (max-width: $bp-small) {
+    margin-top: 10%;
+  }
 }
 // .results li {
 //   @media only screen and (max-width: $bp-medium) {
