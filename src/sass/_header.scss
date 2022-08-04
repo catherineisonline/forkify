@@ -33,6 +33,7 @@
   align-items: center;
   padding-left: 3rem;
   transition: all 0.3s;
+  z-index: 1000;
 
   &:focus-within {
     transform: translateY(-2px);
