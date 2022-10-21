@@ -1,7 +1,7 @@
 $color-primary: #66b539;
 $color-grad-1: #66b539;
 $color-grad-2: #4b6a33;
-
+$color-white: #ffffff; //white
 $color-grey-light-1: #f9f5f3; // Light background
 $color-grey-light-2: #f2efee; // Light lines
 $color-grey-light-3: #59616775; // Light text (placeholder)
@@ -50,7 +50,7 @@ body {
   max-width: 120rem;
   min-height: 117rem;
   margin: 4vw auto;
-  background-color: #fff;
+  background-color: $color-white;
   border-radius: 9px;
   overflow: hidden;
   box-shadow: 0 2rem 6rem 0.5rem rgba($color-grey-dark-1, 0.2);

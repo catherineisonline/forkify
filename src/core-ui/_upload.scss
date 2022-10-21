@@ -4,7 +4,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100rem;
-  background-color: white;
+  background-color: $color-white;
   border-radius: 9px;
   @media only screen and (max-width: $bp-medium) {
     width: max-content;

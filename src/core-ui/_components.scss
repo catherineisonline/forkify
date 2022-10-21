@@ -3,7 +3,7 @@
   border-radius: 10rem;
   border: none;
   text-transform: uppercase;
-  color: #fff;
+  color: $color-white;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -119,7 +119,7 @@
   svg {
     height: 2.5rem;
     width: 2.5rem;
-    fill: #fff;
+    fill: $color-white;
   }
 }
 

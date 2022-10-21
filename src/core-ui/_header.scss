@@ -27,7 +27,7 @@
 }
 
 .search {
-  background-color: #fff;
+  background-color: $color-white;
   border-radius: 10rem;
   display: flex;
   align-items: center;
@@ -60,7 +60,7 @@
       width: auto;
 
       &::placeholder {
-        color: white;
+        color: $color-white;
       }
     }
   }
@@ -135,7 +135,7 @@
   right: -2.5rem;
   z-index: 10;
   width: 40rem;
-  background-color: #fff;
+  background-color: $color-white;
   box-shadow: 0 0.8rem 5rem 2rem rgba($color-grey-dark-1, 0.1);
 
   visibility: hidden;

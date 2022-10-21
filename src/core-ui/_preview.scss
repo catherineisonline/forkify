@@ -6,7 +6,7 @@
       align-items: center;
       padding: 1.5rem 3.25rem;
       transition: all 0.3s;
-      border-right: 1px solid #fff;
+      border-right: 1px solid $color-white;
       text-decoration: none;
       @media only screen and (max-width: $bp-medium) {
         flex-direction: column;
