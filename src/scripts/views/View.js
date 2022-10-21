@@ -1,4 +1,4 @@
-import icons from 'url:../../img/icons.svg'; // Parcel 2
+import icons from 'url:../../assets/img/icons.svg'; // Parcel 2
 
 export default class View {
   _data;
