@@ -84,7 +84,6 @@
   }
 
   &:hover {
-    // color: $color-grad-2;
     background-color: $color-grey-light-2;
   }
 
@@ -100,7 +99,6 @@
   cursor: pointer;
   height: 4.5rem;
   width: 4.5rem;
-  // margin-left: auto;
   transition: all 0.2s;
   display: flex;
   align-items: center;
@@ -168,7 +166,6 @@
   text-transform: uppercase;
   margin-bottom: 2.5rem;
   text-align: center;
-  // transform: skewY(-3deg);
 }
 
 .link:link,

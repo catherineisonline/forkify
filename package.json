@@ -17,9 +17,9 @@
         "parcel": "^2.6.2"
     },
     "dependencies": {
-        "core-js": "^3.24.0",
+        "core-js": "^3.25.5",
         "fractional": "^1.0.0",
         "fracty": "^1.0.9",
-        "regenerator-runtime": "^0.13.9"
+        "regenerator-runtime": "^0.13.10"
     }
 }

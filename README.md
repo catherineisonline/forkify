@@ -42,6 +42,10 @@ Start with the latest version of NPM to avoid any errors:
   ```sh
   npm install npm@latest -g
   ```
+- Also install additional dependencies
+``` 
+ npm i --save core-js regenerator-runtime
+ ```
 
 ### Installation
 

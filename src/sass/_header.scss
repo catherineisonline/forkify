@@ -75,7 +75,6 @@
   align-self: stretch;
   margin-right: 2.5rem;
   @media only screen and (max-width: $bp-medium) {
-    // padding: 3rem;
     margin: 0 auto;
   }
 
@@ -133,7 +132,6 @@
 .bookmarks {
   padding: 1rem 0;
   position: absolute;
-  // right: 0;
   right: -2.5rem;
   z-index: 10;
   width: 40rem;

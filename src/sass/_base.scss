@@ -1,6 +1,6 @@
 $color-primary: #66b539;
 $color-grad-1: #66b539;
-$color-grad-2: #e8f7dd;
+$color-grad-2: #4b6a33;
 
 $color-grey-light-1: #f9f5f3; // Light background
 $color-grey-light-2: #f2efee; // Light lines
@@ -59,7 +59,6 @@ body {
   grid-template-rows: 10rem minmax(60rem, auto);
   grid-template-columns: 1fr;
   grid-template-areas: "head head";
-  // "contentcontainer contentcontainer";
 
   @media only screen and (max-width: $bp-large) {
     max-width: 100%;
@@ -73,6 +72,5 @@ body {
   grid-template-columns: 25% 1fr;
   @media only screen and (max-width: $bp-medium) {
     grid-template-columns: 1fr;
-    // grid-template-rows: 25% 1fr;
   }
 }
