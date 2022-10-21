@@ -2,7 +2,7 @@
 
 <br />
 <p align="center">
-    <img src="https://github.com/catherineisonline/forkify/blob/main/src/img/logo.png?raw=true" width="100%" height="100%">
+    <img src="https://github.com/catherineisonline/forkify/blob/main/src/assets/img/logo.png?raw=true" width="100%" height="100%">
   </a>
 
   <p align="center">
