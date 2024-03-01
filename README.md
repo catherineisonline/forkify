@@ -10,7 +10,7 @@
     <br />
     <br />
     <br />
-    <a href="https://forkify-recipe-api.vercel.app/">View Demo</a>
+    <a href="https://catherineisonline.github.io/forkify/">View Demo</a>
   </p>
 </p>
 
