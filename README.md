@@ -45,6 +45,8 @@ Start with the latest version of NPM to avoid any errors:
 - Also install additional dependencies
 ``` 
  npm i --save core-js regenerator-runtime
+ npm install @parcel/transformer-sass --save-dev
+
  ```
 
 ### Installation
